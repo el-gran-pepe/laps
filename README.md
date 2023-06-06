@@ -12,4 +12,7 @@ La idea principal de esta implementacion es que todas las pass de admin local en
 
 ¿Que podemos parametrizar?
 
-Si bien esta extension no permite definir exactamente las caracteres a utilizar en nuestra contraseña, si nos permite 
+Si bien esta extension no permite definir exactamente las caracteres a utilizar en nuestra contraseña, si nos permite definir, complejidad, fecha de expiracion y longitud. 
+Se puede administrar desde su GUI, AD o PowerShell.
+
+Algo importante, LAPS a partir de 2019 se rompe en funcion a heredar esta extension desde un Windows Server 2016 o anterior. Aparentemente Microsoft esta trabajando en ello pero por el momento no se podria migrar en un eventual upgrade a 2019 en adelante, teniendo hoy, que volver a parametrizar LAPS para poder integrarlo.
