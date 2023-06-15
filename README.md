@@ -16,3 +16,10 @@ Si bien esta extension no permite definir exactamente las caracteres a utilizar 
 Se puede administrar desde su GUI, AD o PowerShell.
 
 Algo importante, LAPS a partir de 2019 se rompe en funcion a heredar esta extension desde un Windows Server 2016 o anterior. Aparentemente Microsoft esta trabajando en ello pero por el momento no se podria migrar en un eventual upgrade a 2019 en adelante, teniendo hoy, que volver a parametrizar LAPS para poder integrarlo.
+
+Archivos que contiene este proyecto
+
+LAPS.ps1      (Script para implementar LAPS)
+LAPSx64.msi   (Instalador LAPS para SO 64 bits)
+LAPSx86.msi   (Instalador LAPS para SO 32 bits)
+LAPS_InstruccionesDelImplementacion.odt (Instructivo recopilado para implementacion)
